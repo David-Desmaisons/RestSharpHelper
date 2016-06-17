@@ -53,6 +53,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClientBuilder.cs" />
+    <Compile Include="OAuth1\IOAuthAuthentifierClient.cs" />
+    <Compile Include="OAuth1\OAuthAuthentifierClient.cs" />
+    <Compile Include="OAuth1\OAuthCompleteInformation.cs" />
+    <Compile Include="OAuth1\OAuthConsumerInformation.cs" />
+    <Compile Include="OAuth1\OAuthTokenInformation.cs" />
     <Compile Include="BasicDateTimeConverter.cs" />
     <Compile Include="BasicTimeSpanConverter.cs" />
     <Compile Include="NewtonsoftJsonSerializer.cs" />
