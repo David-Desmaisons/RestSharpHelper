@@ -2,15 +2,16 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>RestSharpHelper</id>
-        <version>1.0.0</version>
+        <version>1.1.0</version>
         <title>RestSharpHelper</title>
         <authors>david.desmaisons</authors>
         <owners>david.desmaisons</owners>
         <projectUrl>https://github.com/David-Desmaisons/RestSharpHelper</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>RestSharpHelper
-Small library helper for RestSharp including rate limit, helper for async download, usage of  JSON.Net as json serializer and some help[er method</description>
-        <summary>Small library helper for RestSharp including rate limit, helper for async download among others</summary>
+Small library helper for RestSharp including rate limit, oauth1 support, helper for async download, usage of  JSON.Net as json serializer and some helper method</description>
+        <summary>Small library helper for RestSharp including rate limit, oauth1 support, helper for async download among others</summary>
+        <releaseNotes>Adding oauth1 support</releaseNotes>
         <tags>RestSharpHelper, JSON.Net, Rate Limit</tags>
         <dependencies>
             <group targetFramework=".NETFramework4.6.1">
