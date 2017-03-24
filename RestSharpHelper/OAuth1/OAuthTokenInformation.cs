@@ -5,20 +5,13 @@
         public string Token { get; }
         public string TokenSecret { get; }
 
+        public bool PartialOrValid => Token != null;
+        public bool Valid => ((Token != null) && (TokenSecret != null));
+
         public OAuthTokenInformation(string token, string tokenSecret) 
         {
             Token = token;
             TokenSecret = tokenSecret;
-        }
-
-        public bool PartialOrValid 
-        {
-            get { return Token != null; }
-        }
-
-        public bool Valid 
-        {
-            get { return ((Token != null) && (TokenSecret != null)); }
         }
     }
 }
