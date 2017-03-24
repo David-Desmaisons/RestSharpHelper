@@ -22,7 +22,7 @@ namespace RestSharpHelper.OAuth1
         protected abstract string AuthorizeUrl { get; }
 
         private bool TokenIsPartialOrValid => ((_TokenInformation != null) && (_TokenInformation.PartialOrValid));
-        private bool TokenIsValid => (_TokenInformation != null) && (_TokenInformation.Valid));
+        private bool TokenIsValid => (_TokenInformation != null) && (_TokenInformation.Valid);
 
         protected OAuthAuthentifierClient(OAuthConsumerInformation consumerInformation)
         {
