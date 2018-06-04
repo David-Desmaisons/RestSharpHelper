@@ -1,8 +1,8 @@
 ﻿using System.Net;
 using System.Threading.Tasks;
 using RestSharp;
-using RestSharp.Extensions.MonoHttp;
 using System;
+using System.Web;
 
 namespace RestSharpHelper.OAuth1
 {
